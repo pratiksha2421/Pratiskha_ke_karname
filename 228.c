@@ -1,0 +1,1 @@
+//  WAP to input 5 elements into an array and arrange the elements in ascending order
