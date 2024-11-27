@@ -1,3 +1,5 @@
+// WAP to input 5 elements into an array and print only buzz number element
+
 #include<stdio.h>
 #include<conio.h>
 void main()

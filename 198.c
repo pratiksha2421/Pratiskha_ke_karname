@@ -13,14 +13,13 @@ void main()
 }
 void series(int x, int n)
 {
-    int i, a, b;
+    int i, a, b,p;
     float s;
     s = 0.0;
     for (i = 1; i <= n; i++)
     {
-        a = pow(x, i);
-        b = i;
-        s = s + (1.0 * a) / b;
-    }
+        p= pow(x,i)/i;  
+        s=s+p;
+          }
     printf("\n sum =%f", s);
 }

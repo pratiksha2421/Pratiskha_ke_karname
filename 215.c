@@ -1,3 +1,5 @@
+// WAP to input 5 elements into an array and input a number check this number is exist in this array or not
+
 #include<stdio.h>
 #include<conio.h>
 void main()

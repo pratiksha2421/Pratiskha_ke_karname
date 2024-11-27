@@ -1,3 +1,5 @@
+// WAP to input 5 elements into an array and print all the elements in different line with it's index
+
 #include<stdio.h>
 #include<conio.h>
 void main()

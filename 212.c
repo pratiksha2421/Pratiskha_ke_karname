@@ -1,3 +1,5 @@
+// WAP to input 5 elements into an array and calculate sum of all element
+
 #include<stdio.h>
 #include<conio.h>
 void main()

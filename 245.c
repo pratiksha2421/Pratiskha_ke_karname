@@ -1,5 +1,4 @@
-//  WAP to input a string and check it is palindrome number or not without using strrev.
-
+//  WAP to input a string and check it is palindrome  or not without using strrev.
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -12,14 +11,15 @@ gets(a);
 l=strlen(a);
 for(i=0; i<l; i++)
 {
-    b[l-i]=a[i];
+    b[i]=a[l-i-1];
 }
+b[l]='\0';
 c=strcmp(a,b);
 if(c==0)
 {
-    printf("\n it is palindrome number ");
+    printf("\n it is palindrome string");
 }
 else{
-    printf("\n it is not palindrome number");
+    printf("\n it is not palindrome string");
 }
 }

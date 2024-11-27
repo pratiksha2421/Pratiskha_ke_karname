@@ -1,3 +1,5 @@
+// WAP too input 5 elements into an array and calculate product of even elements
+
 #include<stdio.h>
 #include<conio.h>
 void main()

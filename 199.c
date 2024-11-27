@@ -1,3 +1,5 @@
+// WAP to input a number and calculate sum of it's digit using function.00000000000000000000000000000000000
+
 #include<stdio.h>
 #include<conio.h>
 void sum(int);

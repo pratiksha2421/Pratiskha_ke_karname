@@ -1,3 +1,5 @@
+// WAP to input a number and count number of digits using function
+
 #include<stdio.h>
 #include<conio.h>
 void count(int);

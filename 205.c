@@ -1,3 +1,5 @@
+// WAP to input a number and check it is neon number or not using function with return value.
+
 #include<stdio.h>
 #include<conio.h>
 int check(int);
@@ -18,9 +20,16 @@ else
 }
 int check(int p)
 {
-    int i,square,sum;
-    for(i=0; i<=p; i++)
+    int sq,s;
+    for(sq=p*p; sq>0; sq=sq/10)
     {
-
+        sq=s+sq%10;
+    }
+    if(s==p)
+    {
+        printf("\n it is neon number");
+    }
+    else{
+        printf("\n it is not neon number");
     }
 }
