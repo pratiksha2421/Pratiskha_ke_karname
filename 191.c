@@ -1,3 +1,4 @@
+// Write a program to input radius of circle and calculate and print it's area using function.
 #include<stdio.h>
 #include<conio.h>
 void area(float);

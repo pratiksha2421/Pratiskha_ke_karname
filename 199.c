@@ -10,8 +10,9 @@ sum(a);
 }
 void sum(int p)
 {
-    int i,r,n,s;
-    for(i=n;i>0; i=i/10 )
+    int i,r,s;
+    s=0;
+    for(i=p;i>0; i=i/10 )
     {
         r=i%10;
         s=s+r;

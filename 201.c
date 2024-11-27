@@ -9,12 +9,12 @@ scanf("%d",&a);
 c= count(a);
 printf("\n number of digit of %d=%d",a,c);
 }
-void count(int x)
+int count(int x)
 {
 int i,s;
 s=0;
 i=x;
-while(i>0);
+while(i>0)
 {
     s++;
     i=i/10;

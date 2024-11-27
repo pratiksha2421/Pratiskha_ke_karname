@@ -1,3 +1,5 @@
+// Write a program to input a number and calculate and print it's factorial number of this number using function
+ 
 #include <stdio.h>
 #include <conio.h>
 void print(int);

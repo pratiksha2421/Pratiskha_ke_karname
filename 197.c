@@ -1,3 +1,5 @@
+// Write a menu driven program to input a digit in(0 to 9) ansd print this digit in word form
+
 #include<stdio.h>
 #include<conio.h>
 void menu(int);

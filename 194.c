@@ -1,3 +1,4 @@
+// Write a program to input a number and check it is buzz number or not using function
 #include<stdio.h>
 #include<conio.h>
 void check(int);

@@ -1,3 +1,5 @@
+// WAP to input a number of terms and print fibonacci series with this term using function
+
 #include <stdio.h>
 #include <conio.h>
 void series(int);
