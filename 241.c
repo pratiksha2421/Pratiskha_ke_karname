@@ -6,7 +6,7 @@ void main()
 {
 char name[50];
 int i;
-printf("\n enter length=");
+printf("\n enter string =");
 gets(name);
 for(i=0; name[i]!='\0';i++)
 {

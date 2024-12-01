@@ -1,3 +1,5 @@
+// WAP to input 2 arrays of same size and check the equality of array.
+
 #include<stdio.h>
 #include<conio.h>
 void main()
