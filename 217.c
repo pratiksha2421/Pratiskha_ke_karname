@@ -1,3 +1,5 @@
+// WAP to input 
+
 #include <stdio.h>
 #include <conio.h>
 void main()
