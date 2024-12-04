@@ -2,27 +2,17 @@
 
 #include<stdio.h>
 #include<conio.h>
-void area(float *, float *);
-void perimeter(float *, float *);
+void rectangle(float,float,float *, float*);
 void main()
 {
-int l,b;
-printf("\n enter length of rectangle=");
-scanf("%f",&l);
-printf(" \n enter breadth of rectangle=");
-scanf("%f",&b);
-area(&l,&b);
-perimeter(&l,&b);
+float l,b,ar,pr;
+printf("\n enter l,b=");
+scanf("%f%f",&l,&b);
+rectangle(l,b,&ar,&pr);
+printf("\n area=%f\n perimeter=%f",ar,pr);
 }
-void area(float *a,float *b)
+void rectangle(float x, float y, float *p, float *r)
 {
-    float ar;
-    ar = (*a )* (*b);
-printf("\n area of rectangle=%f",ar);
-}
-void perimeter(float *p, float *r)
-{
-    float per;
-per= 2*(*p + *r);
-printf("\n perimeter of rectangle=%f",per);
+    *p=(x*y);
+    *r=2*(x+y);
 }
