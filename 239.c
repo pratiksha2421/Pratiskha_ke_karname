@@ -6,7 +6,6 @@
 int main()
 {
     int array1[3][3], array2[3][3], array3[3][3];
-    ;
     printf("Enter a first array: ");
     for (int i = 0; i < 3; i++)
     {
