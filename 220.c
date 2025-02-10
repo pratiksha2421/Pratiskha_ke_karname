@@ -1,3 +1,5 @@
+// WAP to input 2 array of sum size or different size and merge these two array in third array.
+
 #include<stdio.h>
 #include<conio.h>
 void main()

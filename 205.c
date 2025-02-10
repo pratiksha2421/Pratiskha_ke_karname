@@ -9,7 +9,7 @@ int n,r;
 printf("\n enter a number=");
 scanf("%d",&n);
 r=check(n);
-if(r==1)
+if(r==n)
 {
 printf("\n %d is neon number",n);
 }
@@ -21,15 +21,11 @@ else
 int check(int p)
 {
     int sq,s;
+    s=0;
     for(sq=p*p; sq>0; sq=sq/10)
     {
-        sq=s+sq%10;
+        s=s+sq%10;
     }
-    if(s==p)
-    {
-        printf("\n it is neon number");
-    }
-    else{
-        printf("\n it is not neon number");
-    }
+    
+    return s;
 }

@@ -1,4 +1,4 @@
-// WAP to input 
+// WAP to input 2 array of same size and calculate sum of these array in another array.
 
 #include <stdio.h>
 #include <conio.h>
