@@ -24,3 +24,6 @@ int main()
     c.calarea();
     return(0);
 }
+
+
+
