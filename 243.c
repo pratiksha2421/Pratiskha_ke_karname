@@ -1,4 +1,4 @@
-// WAP to input a string calculate nuumber of vowels
+// WAP to input a string calculate number of vowels
 
 #include<stdio.h>
 #include<conio.h>
